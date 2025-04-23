@@ -18,6 +18,10 @@
         "dest": "/api/hello.js"
       },
       {
+        "src": "/assets/(.*)",
+        "dest": "/dist/assets/$1"
+      },
+      {
         "src": "/(.*)",
         "dest": "/index.html"
       }

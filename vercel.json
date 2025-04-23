@@ -1,7 +1,7 @@
 {
     "builds": [
       {
-        "src": "api/server.js",
+        "src": "api/hello.js",
         "use": "@vercel/node"
       },
       {
@@ -14,8 +14,9 @@
     ],
     "routes": [
       {
-        "src": "/api/server.js",
-        "dest": "/api/server.js"
+        "src": "/api/hello",
+        "dest": "/api/hello.js",
+        "methods": ["GET"]
       },
       {
         "src": "/assets/(.*)",

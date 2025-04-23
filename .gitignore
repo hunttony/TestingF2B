@@ -26,3 +26,6 @@ yarn-error.log*
 # OS metadata
 Thumbs.db
 
+# run locally
+server.js
+
